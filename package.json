@@ -1,0 +1,22 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "Dyte Backend Task",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Ritwik Neema",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "is-valid-http-url": "^1.0.3",
+    "moleculer": "^0.14.15",
+    "moleculer-db": "^0.8.14",
+    "moleculer-db-adapter-mongo": "^0.4.12",
+    "moleculer-web": "^0.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
